@@ -10,7 +10,7 @@
       "start:prod": "cross-env NODE_ENV=production nodemon server.js",
       "debug": "ndb node server.js",
       "watch:js": "parcel watch ./public/js/index.js --dist-dir ./public/js/dist",
-      "build:js": "parcel build ./public/js/index.js --dist-dir ./public/js/dist"
+      "build": "parcel build ./public/js/index.js --dist-dir ./public/js/dist && npm start"
    },
    "author": "Zhuge",
    "license": "ISC",
