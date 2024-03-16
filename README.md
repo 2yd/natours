@@ -2,9 +2,11 @@
   <br>
   <a href="https://lakshman-natours.herokuapp.com/"><img src="https://github.com/lgope/Natours/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
   <br>
-  Natours
+  Natours | A Mega Node.js with MongoDB practice project
   <br>
 </h1>
+
+# Preview
 
 ![natoursHomePageonline-video-cutt](https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif)
 
