@@ -1,4 +1,3 @@
-import '@babel/polyfill'
 import { login, logout } from './login.js'
 import { displayMap } from './mapbox.js'
 import { updateSettings } from './updateSettings.js'

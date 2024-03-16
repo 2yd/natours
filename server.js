@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
+const app = require('./app')
 
 process.on('unhandledRejection', err => {
    console.log(err.name, err.message)
@@ -19,8 +20,7 @@ mongoose.connect(DB).then(con => {
    console.log('DB connection succeeded!')
 })
 
-const app = require('./app')
-const port = process.env.PORT || 4396
+const port = process.env.PORT || 1234
 const server = app.listen(port, () => {
    console.log(`Server started on port ${port}`)
 })
